@@ -4,12 +4,12 @@
 'a hello world GUI example.'
 
 #--python2.x写法
-from Tkinter import *
-import tkMessageBox
+# from Tkinter import *
+# import tkMessageBox
 
 #--python3.x写法
-# from tkinter import *
-# import tkinter.messagebox as tkMessageBox
+from tkinter import *
+import tkinter.messagebox as tkMessageBox
 
 class Application(Frame):
     def __init__(self, master=None):
